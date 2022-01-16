@@ -24,3 +24,5 @@ export class SharedStateTarget extends EventTarget {
     return [state, setSharedState];
   }
 }
+
+export const IS_INPUT_EDITABLE = new SharedStateTarget(true);

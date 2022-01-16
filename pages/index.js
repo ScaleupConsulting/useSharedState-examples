@@ -1,7 +1,9 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import { Input } from '../components/Input';
 import { Checkbox } from '../components/Checkbox';
+import { CheckboxInput } from '../components/CheckboxInput';
+import { Input } from '../components/Input';
+import { InputCheckbox } from '../components/InputCheckbox';
 
 export default function Home() {
   return (
@@ -43,6 +45,16 @@ export default function Home() {
           <span className={styles.card}>
             <h2>Checkboxes 2</h2>
             <p><Checkbox id={1}/><Checkbox id={2}/></p>
+          </span>
+
+          <span className={styles.card}>
+            <h2>Checkboxes - Input</h2>
+            <p><CheckboxInput/></p>
+          </span>
+
+          <span className={styles.card}>
+            <h2>Input - Checkboxes</h2>
+            <p><InputCheckbox/></p>
           </span>
         </div>
       </main>
