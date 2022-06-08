@@ -1,4 +1,4 @@
 module.exports = {
-  basePath: '/useSharedState',
+  basePath: '/useSharedState-examples',
   reactStrictMode: true,
 }

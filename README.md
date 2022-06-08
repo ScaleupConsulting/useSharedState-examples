@@ -16,7 +16,7 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.  It should look the same as https://ScaleupConsulting.github.io/useSharedState
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.  It should look the same as https://ScaleupConsulting.github.io/useSharedState-examples
 
 You can see two examples of multiple components which share state.
 
