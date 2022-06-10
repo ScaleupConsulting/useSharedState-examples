@@ -1,4 +1,5 @@
-import { SharedStateTarget } from '../hooks/useSharedState';
+import { SharedStateTarget } from "@scaleup-consulting/use-shared-state";
+
 
 const INPUT = new SharedStateTarget('initial value');
 
