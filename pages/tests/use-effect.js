@@ -9,9 +9,8 @@ export default function UseEffect() {
   const [text, setText] = SHARED_STATE_TEXT.useSharedState();
 
   useEffect(() => {
-    setText(`You clicked ${count} times`);
-    document.title = text;
-  },[]);
+    setText(Date.now());
+  },[setText, count]);
 
   return (
     <div>
