@@ -11,7 +11,7 @@ export default function UseEffect() {
   useEffect(() => {
     setText(`You clicked ${count} times`);
     document.title = text;
-  });
+  },[]);
 
   return (
     <div>
